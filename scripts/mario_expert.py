@@ -105,6 +105,7 @@ class MarioExpert:
         state = self.environment.game_state()
         frame = self.environment.grab_frame()
         game_area = self.environment.game_area()
+        print(game_area)
 
         # Implement your code here to choose the best action
         # time.sleep(0.1)
